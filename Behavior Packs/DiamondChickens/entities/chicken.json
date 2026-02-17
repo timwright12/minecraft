@@ -13,11 +13,14 @@
         "max": 20
       },
       "minecraft:movement": {
-        "value": 0.4
+        "value": 0.5
       },
       "minecraft:physics": {
         "can_jump": true,
         "jump_height": 0.7
+      },
+      "minecraft:scale": {
+        "value": 4.0
       },
       "minecraft:breedable": {},
       "minecraft:ageable": {},

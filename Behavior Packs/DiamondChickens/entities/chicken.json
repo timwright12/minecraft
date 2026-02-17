@@ -1,0 +1,54 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "diamond_chicken:chicken",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:physics": {
+        "can_jump": true,
+        "jump_height": 0.7
+      },
+      "minecraft:breedable": {},
+      "minecraft:ageable": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/chicken.json"
+      }
+    },
+    "behaviors": [
+      {
+        "priority": 0,
+        "component": "minecraft:behavior.random_stroll"
+      },
+      {
+        "priority": 1,
+        "component": "minecraft:behavior.look_at_player",
+        "look_distance": 8
+      },
+      {
+        "priority": 2,
+        "component": "minecraft:behavior.melee_attack",
+        "damage": 1,
+        "speed_multiplier": 1.5,
+        "follow_range": 10,
+        "knockback": 0.3
+      }
+    ],
+    "target": [
+      {
+        "priority": 1,
+        "target_entities": ["player"]
+      }
+    ]
+  }
+}

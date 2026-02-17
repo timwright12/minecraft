@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Diamond Chicken",
+    "description": "Chickens drop diamonds when they die",
+    "uuid": "fd612e0b-5ff6-408b-a18a-94e21cf6140b",
+    "version": [1, 4, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a2199863-cb3b-42d1-a7a3-859aaeb8cb40",
+      "version": [1, 0, 0]
+    }
+  ]
+}

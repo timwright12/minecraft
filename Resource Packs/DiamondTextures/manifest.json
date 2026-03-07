@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Diamond Fun Pack",
+    "description": "Funny diamond themed textures",
+    "uuid": "0548f285-25c3-4234-aa79-6ad16875feeb",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "d19ed124-86db-41b3-8da1-1af67e991bff",
+      "version": [1, 0, 1]
+    }
+  ]
+}
